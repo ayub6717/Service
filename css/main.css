@@ -2,6 +2,40 @@ body {
   overflow-x: hidden;
 }
 
+/* ***********************Head Start******************* */
+.logo-img{
+  width: 120px;
+  margin-left: 50px;
+}
+.pad{
+  background-color: rgb(39, 43, 61);
+  padding: 10px 0 10px 0;
+}
+.con{
+  margin: 0;
+  padding: 0;
+}
+.con-1{
+  float: right;
+}
+.con li {
+  float: left;
+  list-style: none;
+}
+.con li a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  /* text-align: center; */
+}
+.con li :last-child{
+  padding-left: 10px;
+}
+
+#fa{
+  color: #329E78; font-size: 11px; display: inline-block;  padding: 6px;
+}
+
 /* *************dropdown menubar************** */
 .navbar {
   padding: 10px !important;
@@ -70,7 +104,7 @@ li.dropdown:hover ul.dropdown-menu {
 
 ul.navbar-nav li.nav-item {
   /* margin: 0 20px; */
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 ul.navbar-nav .nav-item:after {
@@ -83,7 +117,7 @@ ul.navbar-nav .nav-item:after {
 
 .navbar-nav .nav-item:hover:after {
   width: 100%;
-  background: #eb3719;
+  background: rgb(39, 43, 61);
 }
 
 /* ***************dropdown menubar end************** */
