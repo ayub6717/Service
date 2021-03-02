@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
 
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.selectric/1.9.4/selectric.css'>
+  <link rel="stylesheet" href="./style.css">
+
 <body>
   <!-- ************Head start****** -->
   <div class="pad">
@@ -114,12 +119,13 @@
   </nav>
   <!-- **********dropdown menubar End*********  -->
 
+  <!-- *******************Find Category************** -->
   <div class="bg">
     <h1 id="txt-1">Your Personal Serivce Partner</h1>
     <div class="box">
-      <span id="fa-1" class="fas fa-search"></span><a style="text-decoration: none; color: white;" class="button"
+      <span id="fa-1" class="fas fa-search"></span><a style="text-decoration: none; color: white;" class="button-1"
         href="#popup1">Search your service</a>
-        
+
     </div>
 
     <div id="popup1" class="overlay">
@@ -144,38 +150,108 @@
                   </select>
                 </div>
               </div>
-                <div class="col-sm-6">
-                  <div class="input-group">
-                    <select class="custom-select" id="gender4">
-                      <option selected>Choose...</option>
-                      <option value="1">Ac Repair</option>
-                      <option value="2">Ac Repair</option>
-                      <option value="3">Ac Repair</option>
-                      <option value="3">Ac Repair</option>
-                      <option value="3">Ac Repair</option>
-                      <option value="3">Ac Repair</option>
-                      <option value="3">Ac Repair</option>
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <select class="custom-select" id="gender4">
+                    <option selected>Choose...</option>
+                    <option value="1">Ac Repair</option>
+                    <option value="2">Ac Repair</option>
+                    <option value="3">Ac Repair</option>
+                    <option value="3">Ac Repair</option>
+                    <option value="3">Ac Repair</option>
+                    <option value="3">Ac Repair</option>
+                    <option value="3">Ac Repair</option>
 
-                    </select>
-                    <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button">Find Service</button>
-                    </div>
+                  </select>
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">Find Service</button>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- *******************Find Category end************** -->
 
+  <section class="main" role="main">
+    <div class="content">
+      <select name="Categories" id="categories">
+        <option value="Category 1">Category 1</option>
+        <option value="Category 2">Category 2</option>
+        <option value="Category 3">Category 3</option>
+        <option value="Category 4">Category 4</option>
+        <option value="Category 5">Category 5</option>
+        <option value="Category 6">Category 6</option>
+        <option value="Category 7">Category 7</option>
+        <option value="Category 8">Category 8</option>
+        <option value="Category 9">Category 9</option>
+        <option value="Category 10">Category 10</option>
+      </select>
 
+      <div class="slider responsive bg-c" id="carousel">
+        <div class="category">
+          <img src="img/ac.png" alt="ac">
+          <h5>AC Repair Service</h5>
+        </div>
 
+        <div class="category">
+          <img src="img/app.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
 
+        <div class="category">
+          <img src="img/shipting.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
 
+        <div class="category">
+          <img src="img/painting.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/trip.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/clean.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/ac.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/clean.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/ac.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+        <div class="category">
+          <img src="img/painting.png" alt="">
+          <h5>Any Repair Service</h5>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/jquery.selectric/1.9.4/jquery.selectric.min.js'></script>
 
   <!-- Script File -->
-  <script src="js/jquery.min.js"></script>
+  <!-- <script src="js/jquery.min.js"></script> -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/main.js"></script>
