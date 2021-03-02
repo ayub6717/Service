@@ -62,7 +62,7 @@ function responseMessage(msg) {
 }
 //*****************star ratting end****************** */
 
-// **************************category
+// **************************category*********************
 $(document).ready(function() {
   
     // Initialise Selectric Dropdown and Slick Carousel
@@ -135,6 +135,6 @@ $(document).ready(function() {
   
   });
 
-// *******************end*****************
+// *******************end category*****************
   
 
