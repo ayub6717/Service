@@ -61,6 +61,8 @@ function responseMessage(msg) {
     $('.success-box div.text-message').html("<span>" + msg + "</span>");
 }
 //*****************star ratting end****************** */
+
+// **************************category
 $(document).ready(function() {
   
     // Initialise Selectric Dropdown and Slick Carousel
@@ -132,4 +134,7 @@ $(document).ready(function() {
   
   
   });
+
+// *******************end*****************
+  
 
