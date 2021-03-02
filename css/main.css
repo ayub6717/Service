@@ -545,8 +545,11 @@ h1 {
 
 .category {
   position: relative;
-  /* margin-left: 40px; */
+  padding: 10px;
   text-align: center;
+}
+.category h6{
+  margin-top: 10px;
 }
 .category img{
   /* width: 60px; */
@@ -556,7 +559,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 27%;
 }
 /* .category .show-more-link {
   position: absolute;
