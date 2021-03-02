@@ -175,13 +175,13 @@ h1 {
   font-size: 1em;
   padding: 10px;
   color: #fff;
-  border: 2px solid rgb(48, 13, 80);
+  border: 2px solid #ffffff;
   ;
   border-radius: 20px/50px;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
-  background-color: rgba(18, 121, 86, 0.623);
+  background-color: rgba(18, 121, 87, 0.747);
 }
 
 .button:hover {
@@ -3090,7 +3090,7 @@ strong.chat_time {
 
 /* Styles for the content section */
 
-.content {
+.content1 {
   width: 77%;
   margin: 50px auto;
   font-family: 'Merriweather', serif;
@@ -3099,19 +3099,19 @@ strong.chat_time {
   line-height: 1.9;
 }
 @media (min-width: 500px) {
-  .content {
+  .content1 {
     width: 43%;
   }
   #button {
     margin: 30px;
   }
 }
-.content h1 {
+.content1 h1 {
   margin-bottom: -10px;
   color: #03a9f4;
   line-height: 1.5;
 }
-.content h3 {
+.content1 h3 {
   font-style: italic;
   color: #96a2a7;
 }
