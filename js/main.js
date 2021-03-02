@@ -1,4 +1,3 @@
-
 //*****************star ratting ****************** */
 $(document)
     .ready(function () {
@@ -63,11 +62,11 @@ function responseMessage(msg) {
 //*****************star ratting end****************** */
 
 // **************************category*********************
-$(document).ready(function() {
-  
+$(document).ready(function () {
+
     // Initialise Selectric Dropdown and Slick Carousel
     $('#categories').selectric();
-    
+
     $('.responsive').slick({
         // dots: true,
         infinite: true,
@@ -80,7 +79,7 @@ $(document).ready(function() {
                 slidesToShow: 5,
                 slidesToScroll: 1,
                 // centerMode: true,
-  
+
             }
         }, {
             breakpoint: 800,
@@ -88,7 +87,7 @@ $(document).ready(function() {
                 slidesToShow: 4,
                 slidesToScroll: 2,
                 infinite: true,
-  
+
             }
         }, {
             breakpoint: 600,
@@ -96,7 +95,7 @@ $(document).ready(function() {
                 slidesToShow: 3,
                 slidesToScroll: 2,
                 infinite: true,
-  
+
             }
         }, {
             breakpoint: 480,
@@ -114,27 +113,25 @@ $(document).ready(function() {
             }
         }]
     });
-    
+
     var currentIndex = 0;
-    $('#categories').on('change', function() {
-      currentIndex = $(this).prop('selectedIndex');
-      var currentSlide = $('.responsive').slick('slickCurrentSlide');
-      $('.responsive').slick('slickGoTo', parseInt(currentIndex));
+    $('#categories').on('change', function () {
+        currentIndex = $(this).prop('selectedIndex');
+        var currentSlide = $('.responsive').slick('slickCurrentSlide');
+        $('.responsive').slick('slickGoTo', parseInt(currentIndex));
     });
-    
-    
-    $('.category .show-more-link').on('click', function() {
-      $(this).next().css('display', 'block');
+
+
+    $('.category .show-more-link').on('click', function () {
+        $(this).next().css('display', 'block');
     });
-    
-    
-    $('.category .close').on('click', function() {
-      $(this).parent().css('display', 'none');
+
+
+    $('.category .close').on('click', function () {
+        $(this).parent().css('display', 'none');
     });
-  
-  
-  });
+
+
+});
 
 // *******************end category*****************
-  
-
